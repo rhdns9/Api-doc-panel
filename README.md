@@ -41,10 +41,6 @@ Method : `POST`
 |VMess|/api/vmess|✅|✅|⛔️|✅|✅|✅|
 |VLess|/api/vless|✅|✅|⛔️|✅|✅|✅|
 |Trojan|/api/trojan|✅|✅|⛔️|✅|✅|✅|
-|Shadowsocks|/api/shadowsocks|✅|✅|⛔️|✅|✅|✅|
-|Shadowsocks22|/api/shadowsocks22|✅|✅|⛔️|✅|✅|✅|
-|Socks5|/api/socks5|✅|✅|✅|✅|✅|✅|
-
 
 Contoh penggunaan menggunakan cURL (Linux Command)
 ```
@@ -77,9 +73,6 @@ Method : `POST`
 |VMess|/api/trialvmess|✅|
 |VLess|/api/trialvless|✅|
 |Trojan|/api/trialtrojan|✅|
-|Shadowsocks|/api/trialshadowsocks|✅|
-|Shadowsocks22|/api/trialshadowsocks22|✅|
-|Socks5|/api/trialsocks5|✅|
 
 **Catatan**
 - Untuk trial menggunakan sistem menit ! tidak lebih 24 Jam Reset jam 00:00 !!!  
@@ -95,9 +88,18 @@ Method : `DELETE`
 |VMess|/api/deletevmess|✅|
 |VLess|/api/deletevless|✅|
 |Trojan|/api/deletetrojan|✅|
-|Shadowsocks|/api/deleteshadowsocks|✅|
-|Shadowsocks22|/api/deleteshadowsocks22|✅|
-|Socks5|/api/deletesocks5|✅|
+
+
+## Renew
+
+Method : `PUT`
+
+|Protocol|Path|username|
+|--|--|--|
+|SSH/OpenVPN|/api/renewsshvpn|✅|
+|VMess|/api/renewvmess|✅|
+|VLess|/api/renewvless|✅|
+|Trojan|/api/renewtrojan|✅|
 
 
 ## Response
